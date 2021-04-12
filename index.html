@@ -716,9 +716,9 @@ margin-bottom: 20px;
                     <li data-group="Origem" data-name="getOrigem" class="">
                       <a href="#api-Origem-getOrigem">getOrigem</a>
                     </li>
-                  <li class="nav-header" data-group="Raa"><a href="#api-Raa">API Methods - Raa</a></li>
-                    <li data-group="Raa" data-name="getRaca" class="">
-                      <a href="#api-Raa-getRaca">getRaca</a>
+                  <li class="nav-header" data-group="Raca"><a href="#api-Raca">API Methods - Raca</a></li>
+                    <li data-group="Raca" data-name="getRaca" class="">
+                      <a href="#api-Raca-getRaca">getRaca</a>
                     </li>
                   <li class="nav-header" data-group="Temperamento"><a href="#api-Temperamento">API Methods - Temperamento</a></li>
                     <li data-group="Temperamento" data-name="getTemperamento" class="">
@@ -1000,10 +1000,10 @@ except ApiException as e:
                       </div>
                       <hr>
                   </section>
-                <section id="api-Raa">
-                  <h1>Raa</h1>
-                    <div id="api-Raa-getRaca">
-                      <article id="api-Raa-getRaca-0" data-group="User" data-name="getRaca" data-version="0">
+                <section id="api-Raca">
+                  <h1>Raca</h1>
+                    <div id="api-Raca-getRaca">
+                      <article id="api-Raca-getRaca-0" data-group="User" data-name="getRaca" data-version="0">
                         <div class="pull-left">
                           <h1>getRaca</h1>
                           <p>Encontra gatos pelo tipo de Raça</p>
@@ -1019,73 +1019,73 @@ except ApiException as e:
                           <h3>Usage and SDK Samples</h3>
                         </p>
                         <ul class="nav nav-tabs nav-tabs-examples">
-                          <li class="active"><a href="#examples-Raa-getRaca-0-curl">Curl</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-java">Java</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-android">Android</a></li>
-                          <!--<li class=""><a href="#examples-Raa-getRaca-0-groovy">Groovy</a></li>-->
-                          <li class=""><a href="#examples-Raa-getRaca-0-objc">Obj-C</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-javascript">JavaScript</a></li>
-                          <!--<li class=""><a href="#examples-Raa-getRaca-0-angular">Angular</a></li>-->
-                          <li class=""><a href="#examples-Raa-getRaca-0-csharp">C#</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-php">PHP</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-perl">Perl</a></li>
-                          <li class=""><a href="#examples-Raa-getRaca-0-python">Python</a></li>
+                          <li class="active"><a href="#examples-Raca-getRaca-0-curl">Curl</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-java">Java</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-android">Android</a></li>
+                          <!--<li class=""><a href="#examples-Raca-getRaca-0-groovy">Groovy</a></li>-->
+                          <li class=""><a href="#examples-Raca-getRaca-0-objc">Obj-C</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-javascript">JavaScript</a></li>
+                          <!--<li class=""><a href="#examples-Raca-getRaca-0-angular">Angular</a></li>-->
+                          <li class=""><a href="#examples-Raca-getRaca-0-csharp">C#</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-php">PHP</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-perl">Perl</a></li>
+                          <li class=""><a href="#examples-Raca-getRaca-0-python">Python</a></li>
                         </ul>
 
                         <div class="tab-content">
-                          <div class="tab-pane active" id="examples-Raa-getRaca-0-curl">
+                          <div class="tab-pane active" id="examples-Raca-getRaca-0-curl">
                             <pre class="prettyprint"><code class="language-bsh">curl -X GET "https://cats.swagger.io/api/racas?raca="</code></pre>
                           </div>
-                          <div class="tab-pane" id="examples-Raa-getRaca-0-java">
+                          <div class="tab-pane" id="examples-Raca-getRaca-0-java">
                             <pre class="prettyprint"><code class="language-java">import io.swagger.client.*;
 import io.swagger.client.auth.*;
 import io.swagger.client.model.*;
-import io.swagger.client.api.RaaApi;
+import io.swagger.client.api.RacaApi;
 
 import java.io.File;
 import java.util.*;
 
-public class RaaApiExample {
+public class RacaApiExample {
 
     public static void main(String[] args) {
         
-        RaaApi apiInstance = new RaaApi();
+        RacaApi apiInstance = new RacaApi();
         String raca = raca_example; // String | Id da Raça a ser buscada
         try {
             apiInstance.getRaca(raca);
         } catch (ApiException e) {
-            System.err.println("Exception when calling RaaApi#getRaca");
+            System.err.println("Exception when calling RacaApi#getRaca");
             e.printStackTrace();
         }
     }
 }</code></pre>
                           </div>
 
-                          <div class="tab-pane" id="examples-Raa-getRaca-0-android">
-                            <pre class="prettyprint"><code class="language-java">import io.swagger.client.api.RaaApi;
+                          <div class="tab-pane" id="examples-Raca-getRaca-0-android">
+                            <pre class="prettyprint"><code class="language-java">import io.swagger.client.api.RacaApi;
 
-public class RaaApiExample {
+public class RacaApiExample {
 
     public static void main(String[] args) {
-        RaaApi apiInstance = new RaaApi();
+        RacaApi apiInstance = new RacaApi();
         String raca = raca_example; // String | Id da Raça a ser buscada
         try {
             apiInstance.getRaca(raca);
         } catch (ApiException e) {
-            System.err.println("Exception when calling RaaApi#getRaca");
+            System.err.println("Exception when calling RacaApi#getRaca");
             e.printStackTrace();
         }
     }
 }</code></pre>
                           </div>
   <!--
-  <div class="tab-pane" id="examples-Raa-getRaca-0-groovy">
+  <div class="tab-pane" id="examples-Raca-getRaca-0-groovy">
   <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
   </div> -->
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-objc">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-objc">
                               <pre class="prettyprint"><code class="language-cpp">String *raca = raca_example; // Id da Raça a ser buscada (optional)
 
-RaaApi *apiInstance = [[RaaApi alloc] init];
+RacaApi *apiInstance = [[RacaApi alloc] init];
 
 // Encontra gatos pelo tipo de Raça
 [apiInstance getRacaWith:raca
@@ -1097,10 +1097,10 @@ RaaApi *apiInstance = [[RaaApi alloc] init];
 </code></pre>
                             </div>
 
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-javascript">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-javascript">
                               <pre class="prettyprint"><code class="language-js">var SwaggerCatApi = require('swagger_cat_api');
 
-var api = new SwaggerCatApi.RaaApi()
+var api = new SwaggerCatApi.RacaApi()
 
 var opts = { 
   'raca': raca_example // {String} Id da Raça a ser buscada
@@ -1117,10 +1117,10 @@ api.getRaca(opts, callback);
 </code></pre>
                             </div>
 
-                            <!--<div class="tab-pane" id="examples-Raa-getRaca-0-angular">
+                            <!--<div class="tab-pane" id="examples-Raca-getRaca-0-angular">
               <pre class="prettyprint language-json prettyprinted" data-type="json"><code>Coming Soon!</code></pre>
             </div>-->
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-csharp">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-csharp">
                               <pre class="prettyprint"><code class="language-cs">using System;
 using System.Diagnostics;
 using IO.Swagger.Api;
@@ -1134,7 +1134,7 @@ namespace Example
         public void main()
         {
             
-            var apiInstance = new RaaApi();
+            var apiInstance = new RacaApi();
             var raca = raca_example;  // String | Id da Raça a ser buscada (optional) 
 
             try
@@ -1144,7 +1144,7 @@ namespace Example
             }
             catch (Exception e)
             {
-                Debug.Print("Exception when calling RaaApi.getRaca: " + e.Message );
+                Debug.Print("Exception when calling RacaApi.getRaca: " + e.Message );
             }
         }
     }
@@ -1152,38 +1152,38 @@ namespace Example
 </code></pre>
                             </div>
 
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-php">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-php">
                               <pre class="prettyprint"><code class="language-php"><&#63;php
 require_once(__DIR__ . '/vendor/autoload.php');
 
-$api_instance = new Swagger\Client\Api\RaaApi();
+$api_instance = new Swagger\Client\Api\RacaApi();
 $raca = raca_example; // String | Id da Raça a ser buscada
 
 try {
     $api_instance->getRaca($raca);
 } catch (Exception $e) {
-    echo 'Exception when calling RaaApi->getRaca: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling RacaApi->getRaca: ', $e->getMessage(), PHP_EOL;
 }
 ?></code></pre>
                             </div>
 
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-perl">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-perl">
                               <pre class="prettyprint"><code class="language-perl">use Data::Dumper;
 use WWW::SwaggerClient::Configuration;
-use WWW::SwaggerClient::RaaApi;
+use WWW::SwaggerClient::RacaApi;
 
-my $api_instance = WWW::SwaggerClient::RaaApi->new();
+my $api_instance = WWW::SwaggerClient::RacaApi->new();
 my $raca = raca_example; # String | Id da Raça a ser buscada
 
 eval { 
     $api_instance->getRaca(raca => $raca);
 };
 if ($@) {
-    warn "Exception when calling RaaApi->getRaca: $@\n";
+    warn "Exception when calling RacaApi->getRaca: $@\n";
 }</code></pre>
                             </div>
 
-                            <div class="tab-pane" id="examples-Raa-getRaca-0-python">
+                            <div class="tab-pane" id="examples-Raca-getRaca-0-python">
                               <pre class="prettyprint"><code class="language-python">from __future__ import print_statement
 import time
 import swagger_client
@@ -1191,14 +1191,14 @@ from swagger_client.rest import ApiException
 from pprint import pprint
 
 # create an instance of the API class
-api_instance = swagger_client.RaaApi()
+api_instance = swagger_client.RacaApi()
 raca = raca_example # String | Id da Raça a ser buscada (optional)
 
 try: 
     # Encontra gatos pelo tipo de Raça
     api_instance.get_raca(raca=raca)
 except ApiException as e:
-    print("Exception when calling RaaApi->getRaca: %s\n" % e)</code></pre>
+    print("Exception when calling RacaApi->getRaca: %s\n" % e)</code></pre>
                             </div>
                           </div>
 
