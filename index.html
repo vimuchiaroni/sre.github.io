@@ -749,7 +749,7 @@ margin-bottom: 20px;
                       <article id="api-Origem-getOrigem-0" data-group="User" data-name="getOrigem" data-version="0">
                         <div class="pull-left">
                           <h1>getOrigem</h1>
-                          <p>Encontra gatos pelo tipo de Raça</p>
+                          <p>Encontra gatos pela origem.  Se usada sem parametros lista todas as origens</p>
                         </div>
                         <div class="pull-right"></div>
                         <div class="clearfix"></div>
@@ -830,7 +830,7 @@ public class OrigemApiExample {
 
 OrigemApi *apiInstance = [[OrigemApi alloc] init];
 
-// Encontra gatos pelo tipo de Raça
+// Encontra gatos pela origem.  Se usada sem parametros lista todas as origens
 [apiInstance getOrigemWith:origem
               completionHandler: ^(NSError* error) {
                             if (error) {
@@ -882,7 +882,7 @@ namespace Example
 
             try
             {
-                // Encontra gatos pelo tipo de Raça
+                // Encontra gatos pela origem.  Se usada sem parametros lista todas as origens
                 apiInstance.getOrigem(origem);
             }
             catch (Exception e)
@@ -938,7 +938,7 @@ api_instance = swagger_client.OrigemApi()
 origem = origem_example # String | Pais de origem (optional)
 
 try: 
-    # Encontra gatos pelo tipo de Raça
+    # Encontra gatos pela origem.  Se usada sem parametros lista todas as origens
     api_instance.get_origem(origem=origem)
 except ApiException as e:
     print("Exception when calling OrigemApi->getOrigem: %s\n" % e)</code></pre>
@@ -1006,7 +1006,7 @@ except ApiException as e:
                       <article id="api-Raca-getRaca-0" data-group="User" data-name="getRaca" data-version="0">
                         <div class="pull-left">
                           <h1>getRaca</h1>
-                          <p>Encontra gatos pelo tipo de Raça</p>
+                          <p>Encontra gatos pelo tipo de Raça. Se usada sem parametros lista todas as raças</p>
                         </div>
                         <div class="pull-right"></div>
                         <div class="clearfix"></div>
@@ -1087,7 +1087,7 @@ public class RacaApiExample {
 
 RacaApi *apiInstance = [[RacaApi alloc] init];
 
-// Encontra gatos pelo tipo de Raça
+// Encontra gatos pelo tipo de Raça. Se usada sem parametros lista todas as raças
 [apiInstance getRacaWith:raca
               completionHandler: ^(NSError* error) {
                             if (error) {
@@ -1139,7 +1139,7 @@ namespace Example
 
             try
             {
-                // Encontra gatos pelo tipo de Raça
+                // Encontra gatos pelo tipo de Raça. Se usada sem parametros lista todas as raças
                 apiInstance.getRaca(raca);
             }
             catch (Exception e)
@@ -1195,7 +1195,7 @@ api_instance = swagger_client.RacaApi()
 raca = raca_example # String | Id da Raça a ser buscada (optional)
 
 try: 
-    # Encontra gatos pelo tipo de Raça
+    # Encontra gatos pelo tipo de Raça. Se usada sem parametros lista todas as raças
     api_instance.get_raca(raca=raca)
 except ApiException as e:
     print("Exception when calling RacaApi->getRaca: %s\n" % e)</code></pre>
@@ -1263,7 +1263,7 @@ except ApiException as e:
                       <article id="api-Temperamento-getTemperamento-0" data-group="User" data-name="getTemperamento" data-version="0">
                         <div class="pull-left">
                           <h1>getTemperamento</h1>
-                          <p>Encontra gatos pelo tipo de comportamento</p>
+                          <p>Encontra gatos pelo tipo de comportamento.  Se usada sem parametros lista todos os comportamentos</p>
                         </div>
                         <div class="pull-right"></div>
                         <div class="clearfix"></div>
@@ -1344,7 +1344,7 @@ public class TemperamentoApiExample {
 
 TemperamentoApi *apiInstance = [[TemperamentoApi alloc] init];
 
-// Encontra gatos pelo tipo de comportamento
+// Encontra gatos pelo tipo de comportamento.  Se usada sem parametros lista todos os comportamentos
 [apiInstance getTemperamentoWith:temperamento
               completionHandler: ^(NSError* error) {
                             if (error) {
@@ -1396,7 +1396,7 @@ namespace Example
 
             try
             {
-                // Encontra gatos pelo tipo de comportamento
+                // Encontra gatos pelo tipo de comportamento.  Se usada sem parametros lista todos os comportamentos
                 apiInstance.getTemperamento(temperamento);
             }
             catch (Exception e)
@@ -1452,7 +1452,7 @@ api_instance = swagger_client.TemperamentoApi()
 temperamento = temperamento_example # String | Tipo de temperamento (optional)
 
 try: 
-    # Encontra gatos pelo tipo de comportamento
+    # Encontra gatos pelo tipo de comportamento.  Se usada sem parametros lista todos os comportamentos
     api_instance.get_temperamento(temperamento=temperamento)
 except ApiException as e:
     print("Exception when calling TemperamentoApi->getTemperamento: %s\n" % e)</code></pre>
